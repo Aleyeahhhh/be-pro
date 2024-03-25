@@ -1,0 +1,16 @@
+{
+  "roles": [
+    {
+      "name": "admin",
+      "permissions": []
+    },
+    {
+      "name": "Enseignant",
+      "permissions": ["updateUserRole"]
+    },
+    {
+      "name": "Utilisateur",
+      "permissions": []
+    }
+  ]
+}
