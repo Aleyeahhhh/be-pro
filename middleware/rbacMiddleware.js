@@ -1,5 +1,4 @@
-const Role = require("../models/role");
-const Permissions = require("../models/permissions");
+const Permissions = require("../config/permissions");
 
 // Check if the user has the required permission for a route
 exports.checkPermission = (permission) => {
